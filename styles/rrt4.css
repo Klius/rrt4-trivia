@@ -1,0 +1,11 @@
+html {
+    background-color: #FAB217;
+}
+
+
+h1, h2 {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
