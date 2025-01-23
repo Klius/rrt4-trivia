@@ -9,3 +9,19 @@ h1, h2 {
   font-weight: 700;
   font-style: normal;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.col-2 {
+ width: 50%;
+}
+
+div {
+  width: 100%;
+}
