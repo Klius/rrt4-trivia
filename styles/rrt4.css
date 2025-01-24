@@ -1,27 +1,22 @@
 html {
-    background-color: #FAB217;
+  background-color: #FAB217 !important;
 }
 
 
-h1, h2 {
-  font-family: "Oswald", serif;
+h1,
+h2 {
+  font-family: "Oswald", serif !important;
   font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-body {
-  display: flex;
-  flex-direction: column;
+  font-weight: 700 !important;
+  font-style: normal !important;
 }
 
-.col-3 {
-  width: 33%;
-}
-
-.col-2 {
- width: 50%;
-}
-
-div {
+img {
   width: 100%;
+  border: 1px solid black;
+}
+
+.img-subtitle {
+  font-style: italic;
+  font-size: small;
 }

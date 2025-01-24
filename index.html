@@ -10,68 +10,153 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='styles/rrt4.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/bootstrap-grid.css'>
 </head>
 
 <body>
-    <div>
+    <div class="row">
         <h1>Teams</h1>
-        <img src="img/rts.png" />
+
     </div>
-    <div>
+    <div class="row">
         <h1>Weird-ass controllers</h1>
         <p>The game supports multiple controllers but the weirder ones where made by Namco itself...</p>
-        <h2>NEGCON</h2>
+        <div class="col-4">
+            <img src="img/controllers.jpg" />
+            <span class="img-subtitle">From top to bottom the JogCon and the NegCon</span>
+        </div>
+        <div class="col-6">
+            <h2>NEGCON</h2>
+
+            <p>
+                Released in 1995 as a way to accurately control cars in Namco's racing games.<br>
+                The controller is separated in two halves by a swivel-joint which allows the player to twist
+                them.<br>
+                That movement is registered to make the cars turn left or right<br>
+                Also the L and R buttons as well as Square and X (labeled I and II) are analog buttons allowing for
+                more finer control of the accelerator and brake.<br>
+                It has support for most of the racing games on the <a
+                    href="https://en.wikipedia.org/wiki/NeGcon#Supported_games">PS1 Library</a>
+                <br>
+                Weirdly enough it's <a href="https://www.bandainamcoent.co.jp/cs/list/negcon/index.php">official
+                    webpage is still up </a>
+            </p>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/negcon_twist.gif" />
+                </div>
+                <div class="col-4">
+                    <img src="img/negcon-buttons.gif" />
+                </div>
+                <div class="col-4">
+                    <img src="img/negcon-gameplay.gif" />
+                </div>
+            </div>
+            <h2>JOGCON</h2>
+            <p>
+                Parallel to developing this game, Namco released a new controller with it.<br>
+                The dial in the middle uses motors to provide force feedback, but the dial it's hard to hold and in my
+                experience
+                sometimes goes crazy giving feedback.<br>
+                It was sold as a bundle with the game as well as separate.<br>
+                In the end it didn't do great as evidenced by it only being supported fully in 5 games:
+            <ul>
+                <li>Ridge Racer Type 4</li>
+                <li>V-Rally 2</li>
+                <li>Pac-Man World</li>
+                <li>Breakout</li>
+                <li>Ridge Racer V</li>
+            </ul>
+            </p>
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/jogcon-dial.gif" />
+                    <span class="img-subtitle">Spin it to win it</span>
+                </div>
+                <div class="col-3">
+                    <img src="img/jogcon-recenter.gif" />
+                    <span class="img-subtitle">The dial recenters each time a race starts</span>
+                </div>
+                <div class="col-3">
+                    <img src="img/jogcon-gameplay.gif" />
+                    <span class="img-subtitle">Driving with the dial is not great </span>
+                </div>
+                <div class="col-3">
+                    <img src="img/jogcon-dial-brr.gif" />
+                    <span class="img-subtitle">Letting go of the dial makes it go brrr </span>
+                </div>
+            </div>
+
+
+        </div>
         <p>
-            Released in 1995 as a way to accurately control cars in Namco's racing games.<br>
-            The controller is separated in two halves by a swivel-joint which allows the player to twist them. That
-            movement
-            is registered to make the cars turn left or right<br>
-            Also the L and R buttons as well as Square and X (labeled I and II) are analog buttons allowing for more
-            finer
-            control of the accelerator and brake.<br>
-            It has support for most of the racing games on the <a
-                href="https://en.wikipedia.org/wiki/NeGcon#Supported_games">PS1 Library</a>
-            Weirdly enough it's <a href="https://www.bandainamcoent.co.jp/cs/list/negcon/index.php">official webpage is
-                still up </a>
+            Both controllers are valuable in a speedrun setting because you don't lose as much speed while
+            turning
         </p>
     </div>
-    <h2>JOGCON</h2>
-    <p>
-        Parallel to developing this game, Namco released a new controller with it.<br>
-        The dial in the middle uses motors to provide force feedback, but it's hard to reach and in my experience
-        sometimes stops giving feedback altogether.<br>
-        It was sold as a bundle with the game as well as separate.<br>
-        In the end it didn't do great as evidenced by it only being supported fully in 5 games:
-    <ul>
-        <li>Ridge Racer Type 4</li>
-        <li>V-Rally 2</li>
-        <li>Pac-Man World</li>
-        <li>Breakout</li>
-        <li>Ridge Racer V</li>
-    </ul>
-    </p>
+    <div class="row">
+        <h1>Game releases</h1>
+        <p>
+            Here's some of the versions the game got
+        </p>
+        <div class="col-6">
+            <img src="img/r4-bundle.jpg" />
+        </div>
+        <div class="col-6">
 
-    <p>These two controllers are valuable in a speedrun setting because you don't lose as much speed while turning</p>
+            <h2>JOGCON bundle</h2>
+            <p>
+                Basically it's the game with a JogCon controller packed inside
+            </p>
+            <h2>HI-Spec Demo</h2>
+            <p>
+                Earlier releases included a playable demo of Ridge Racer 1 running at 60 fps (50 on PAL land) as a way
+                to show how far acquainted they've become with the hardware and as a statement for future games on the
+                PS2.
+            </p>
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/r4_jap.jpg" />
+                    <span class="img-subtitle">The NTSC-J release features the game's UI on the design</span>
+                </div>
+                <div class="col-5">
+                    <img src="img/r4_pal.jpg" />
+                    <span class="img-subtitle">Some of the PAL releases included the demo in a separate cardboard case
+                    </span>
+                </div>
+            </div>
 
+        </div>
+
+
+
+    </div>
     <h1>Did you know it's a game made by namco?</h1>
     <p>All of the in-world brands,sponsors and teams are named after Namco properties.<br>
         Let's see how many you can spot!
     </p>
 
-    <h1>Game releases</h1>
-    <h2>JOGCON bundle</h2>
-    <p></p>
-    <h2>HI-Spec Demo</h2>
-    <p>
-        The original release includes a playable demo of Ridge Racer 1 running at 60 fps (50 on PAL land) as a way to
-        show how far acquainted they've become with the hardware and as a statement for future games.
-    </p>
+
     <h1>PocketStation support</h1>
-    <p>
-        The pocketstation game allowed you to see which cars you had unlocked as well as trade them with other
-        players.<br>
-        It's no Chocobo World
-    </p>
+    <div class="row">
+        <div class="col-4">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/9SrR0MjaYNI?si=Fs0uo8MbEydMqRJS&amp;start=101"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="col-6">
+            <p>
+                The pocketstation game allowed you to see which cars you had unlocked as well as trade them with other
+                players.<br>
+                Apart from that... nothing really too exciting, just ID numbers and team names!
+            </p>
+        </div>
+    </div>
+
+
 
     <h1>Rocket Start</h1>
     <p>
