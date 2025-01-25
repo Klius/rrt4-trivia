@@ -20,3 +20,7 @@ img {
   font-style: italic;
   font-size: small;
 }
+
+.large-font {
+  font-size: 2em;
+}
